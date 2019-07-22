@@ -92,7 +92,6 @@ if __name__ in "__main__":
 						#print(link + "   " + jobName)
 						html_string = ''
 						html_string = CreateHTML(driver, link, html_string)
-						print(html_string)
 						saveToFile(html_string)
 						b = True
 						break
